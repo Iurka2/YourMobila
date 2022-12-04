@@ -41,7 +41,7 @@ export const getServerSideProps = async () => {
 
 const Gallery = (props) => {
 
-  const [images, setImages] = useState(props.products);
+  const [images, setImages] = useState(props.images);
   const getImagesByTag = async () => {
 
     setImages([]);
