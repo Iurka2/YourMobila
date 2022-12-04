@@ -32,7 +32,7 @@ const Gallery = () => {
    <meta name='description' content='Galereie cu proiectele realizate' /> 
 </Head>
 
-
+  {/* //=========================Bucatarii=================// */}
 <h1 className={styles.heading}>Bucătărie</h1>
 <Swiper
   spaceBetween={24}
@@ -40,6 +40,7 @@ const Gallery = () => {
   navigation={true} 
   modules={[Navigation]}
   >
+    {/* //=====================================Aici pui img=============// */}
 <SwiperSlide>
     <Zoom wrapStyle={{ maxWidth: "100%", minHeight: "100%" }} >
 <Image src={img1} />
@@ -47,6 +48,8 @@ const Gallery = () => {
 </SwiperSlide>    
 </Swiper>
 
+
+{/* //=========================Baie=================// */}
 <h1 className={styles.heading}>Baie</h1>
 <Swiper
   spaceBetween={24}
@@ -54,6 +57,7 @@ const Gallery = () => {
   navigation={true} 
   modules={[Navigation]}
   >
+       {/* //=====================================Aici pui img=============// */}
 <SwiperSlide>
     <Zoom wrapStyle={{ maxWidth: "100%", minHeight: "100%" }} >
 <Image src={img1} />
